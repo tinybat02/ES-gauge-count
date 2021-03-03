@@ -1,0 +1,21 @@
+{
+  "type": "panel",
+  "name": "ES Gauge Count",
+  "id": "id-es-gauge-pure-count",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "ES Gauge Count",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": [],
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2021-03-03"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
