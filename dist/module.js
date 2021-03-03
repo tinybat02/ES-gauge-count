@@ -1343,8 +1343,6 @@ var processData = function processData(buffer) {
     if (tmp[i] > 0) {
       return tmp[i];
     }
-
-    break;
   }
 
   return 0;

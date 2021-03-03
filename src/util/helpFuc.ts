@@ -10,7 +10,6 @@ export const processData = (buffer: number[]) => {
     if (tmp[i] > 0) {
       return tmp[i];
     }
-    break;
   }
   return 0;
 };
