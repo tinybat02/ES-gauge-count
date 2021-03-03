@@ -1149,7 +1149,6 @@ function (_super) {
   }
 
   MainPanel.prototype.componentDidMount = function () {
-    console.log('gauge count', this.props.data);
     var series = this.props.data.series;
 
     if (series.length == 0 || series[0].fields[0].values.buffer.length == 0) {
