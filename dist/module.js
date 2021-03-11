@@ -1350,17 +1350,9 @@ var defaults = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "processData", function() { return processData; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-
 var processData = function processData(buffer) {
-  // if (buffer.slice(-1)[0] == 0) {
-  //   return buffer.slice(-7).reduce((total, elm) => total + elm, 0);
-  // }
-  // return buffer.slice(-6).reduce((total, elm) => total + elm, 0);
-  // return buffer.slice(-7).reduce((total, elm) => total + elm, 0);
-  // return buffer.slice(-1)[0] || 0;
   if (buffer.length == 0) return 0;
-  return Math.max.apply(Math, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(buffer.slice(-2)));
+  return buffer.slice(-2)[0];
 };
 
 /***/ }),
